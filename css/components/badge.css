@@ -1,0 +1,25 @@
+@keyframes notificationAnimation{
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateX(-5px) rotateX('360deg');
+    }
+    100%{
+        transform: none;
+    }
+}
+
+
+.badge{
+background-color: tomato;
+width: 30px;
+height: 30px;
+border-radius: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-weight: 600;
+animation:notificationAnimation 2s ease-in-out infinite;
+}
